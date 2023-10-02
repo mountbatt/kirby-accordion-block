@@ -4,5 +4,6 @@ This is a [custom block plugin](https://getkirby.com/docs/reference/panel/fields
 
 Every accordion can also output with a valid FAQ-Schema.
 
-## Thanks for inspiration @kiah
+Thanks for inspiration @kiah
+Origin: https://github.com/kiahreading/kirby-accordion-block
 
