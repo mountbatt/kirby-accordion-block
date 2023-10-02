@@ -1,3 +1,7 @@
+.k-block-type-accordion details {
+	padding: var(--input-padding-multiline);
+}
+
 .k-block-type-accordion details:not(:last-of-type) {
 	margin-bottom: .8rem;
 }

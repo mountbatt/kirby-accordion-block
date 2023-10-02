@@ -1,6 +1,5 @@
 <?php
-
-Kirby::plugin('kiah/accordion-block', [
+Kirby::plugin('mountbatt/accordion-block', [
   'blueprints' => [
     'blocks/accordion' => __DIR__ . '/blueprints/blocks/accordion.yml'
   ],

@@ -1,14 +1,16 @@
 name: Accordion
 fields:
+  
   accordion:
     type: structure
+    sortable: true
     columns:
       summary:
           width: 1/4
       details:
           width: 2/4
       toggle:
-          text: false
+          text: true
     fields:
       toggle:
         label: Open on load?
@@ -18,11 +20,21 @@ fields:
           - "Yes"
         width: 1/3
       summary:
+        label: Question
         type: text
         width: 2/3
-        placeholder: Add title here
+        placeholder: Add title or question here
       details:
+        label: Answer
         type: writer
-        placeholder: Add hidden text here
+        placeholder: Add collapsed answer here
         required: true
+    
+  schema:
+    label: Show as FAQ-Schema?
+    type: toggle
+    default: true
+    text: 
+      - "No"
+      - "Yes"
       

@@ -1,25 +1,8 @@
 # kirby-accordion-block
 
-This is a [custom block plugin](https://getkirby.com/docs/reference/panel/fields/blocks) for the [Kirby CMS](https://github.com/getkirby/kirby). It is used to add a custom accordion block that uses semantic HTML. Shipping without any CSS requirements, it is unopinionated but easy to style if you are so inclined.
+This is a [custom block plugin](https://getkirby.com/docs/reference/panel/fields/blocks) for [Kirby CMS](https://github.com/getkirby/kirby). It is used to add a custom accordion block that uses semantic HTML and Bootstrap 5 syntax. 
 
-![Kirby Accordion Block panel view](/kirby-accordion-block.png)
+Every accordion can also output with a valid FAQ-Schema.
 
-## Example
-<details open>
-	<summary>System Requirements</summary>
-	<p>Requires a computer running an operating system. The computer
-  must have some memory and ideally some kind of long-term storage.
-  An input device as well as some form of output device is
-  recommended.</p>
-</details>
+## Thanks for inspiration @kiah
 
-## Info
-An accordion is used to show (and hide) HTML content. In the case of this plugin, this can be one or more collapsable elements.
-
-They are sometimes also known as a [disclosure widget or a twistie](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details).
-
-## Problems / ToDos
-* Figure out a way to show in Panel preview whether editor has toggled to show open attribute on page load
-* Check it is accessible
-* Add installation guide ie. (where to save folder to and where to add block to yml)
-* Add composer.json

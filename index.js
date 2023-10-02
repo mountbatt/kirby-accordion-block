@@ -1,4 +1,4 @@
-panel.plugin("kiah/accordion-block", {
+panel.plugin("mountbatt/accordion-block", {
   blocks: {
     accordion: `
       	<div @dblclick="open">
@@ -6,10 +6,11 @@ panel.plugin("kiah/accordion-block", {
 		    	<details open><summary>Details</summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</details>
 		    </template>
 		    <template v-else>
+						
 		        <details open v-for="item in content.accordion">
-		        <summary v-if="item.summary">{{ item.summary }}</summary>
+						<summary v-if="item.summary">{{ item.summary }}</summary>
 		        <summary v-else>Details</summary>
-		        <div v-html="item.details"></div>
+		        <div v-html="item.details" class="k-text"></div>
 		        </details>
 		    </template>
 		</div>
