@@ -1,40 +1,38 @@
-name: Accordion
+name: field.blocks.accordion.name
+icon: menu
 fields:
   
   accordion:
+    label: field.blocks.accordion.nameentries
     type: structure
     sortable: true
     columns:
       summary:
-          width: 1/4
+        width: 1/4
       details:
-          width: 2/4
+        width: 2/4
       toggle:
-          text: true
+        label: field.blocks.accordion.open  
+        text: true
     fields:
       toggle:
-        label: Open on load?
+        label: field.blocks.accordion.openonload
         type: toggle
-        text: 
-          - "No"
-          - "Yes"
         width: 1/3
       summary:
-        label: Question
+        label: field.blocks.accordion.question
         type: text
         width: 2/3
-        placeholder: Add title or question here
+        placeholder: field.blocks.accordion.desc_question
+        required: true
       details:
-        label: Answer
-        type: writer
-        placeholder: Add collapsed answer here
+        label: field.blocks.accordion.answer
+        type: textarea
+        placeholder: field.blocks.accordion.desc_answer
         required: true
     
   schema:
-    label: Show as FAQ-Schema?
+    label: field.blocks.accordion.showasfaq
     type: toggle
     default: true
-    text: 
-      - "No"
-      - "Yes"
       
